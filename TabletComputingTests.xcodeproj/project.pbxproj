@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DD5DD18A2BC8307E00C40EEF /* TabletComputingTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DD1892BC8307E00C40EEF /* TabletComputingTestsApp.swift */; };
-		DD5DD18C2BC8307E00C40EEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DD18B2BC8307E00C40EEF /* ContentView.swift */; };
 		DD5DD18E2BC8308000C40EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5DD18D2BC8308000C40EEF /* Assets.xcassets */; };
 		DD5DD1912BC8308000C40EEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5DD1902BC8308000C40EEF /* Preview Assets.xcassets */; };
 		DD5DD19B2BC8308000C40EEF /* TabletComputingTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DD19A2BC8308000C40EEF /* TabletComputingTestsTests.swift */; };
 		DD5DD1A52BC8308000C40EEF /* TabletComputingTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DD1A42BC8308000C40EEF /* TabletComputingTestsUITests.swift */; };
 		DD5DD1A72BC8308000C40EEF /* TabletComputingTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DD1A62BC8308000C40EEF /* TabletComputingTestsUITestsLaunchTests.swift */; };
+		DD5DD1BC2BC830C600C40EEF /* BasicCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DD1BB2BC830C600C40EEF /* BasicCounter.swift */; };
+		DD5DD1BD2BC830C600C40EEF /* ColorButtons1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DD1B92BC830C600C40EEF /* ColorButtons1.swift */; };
+		DD5DD1BE2BC830C600C40EEF /* ColorButtons2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DD1BA2BC830C600C40EEF /* ColorButtons2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		DD5DD1862BC8307E00C40EEF /* TabletComputingTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletComputingTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5DD1892BC8307E00C40EEF /* TabletComputingTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletComputingTestsApp.swift; sourceTree = "<group>"; };
-		DD5DD18B2BC8307E00C40EEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD5DD18D2BC8308000C40EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD5DD1902BC8308000C40EEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD5DD1962BC8308000C40EEF /* TabletComputingTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletComputingTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		DD5DD1A02BC8308000C40EEF /* TabletComputingTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletComputingTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5DD1A42BC8308000C40EEF /* TabletComputingTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletComputingTestsUITests.swift; sourceTree = "<group>"; };
 		DD5DD1A62BC8308000C40EEF /* TabletComputingTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletComputingTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD5DD1B92BC830C600C40EEF /* ColorButtons1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtons1.swift; sourceTree = "<group>"; };
+		DD5DD1BA2BC830C600C40EEF /* ColorButtons2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtons2.swift; sourceTree = "<group>"; };
+		DD5DD1BB2BC830C600C40EEF /* BasicCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		DD5DD1882BC8307E00C40EEF /* TabletComputingTests */ = {
 			isa = PBXGroup;
 			children = (
+				DD5DD1BB2BC830C600C40EEF /* BasicCounter.swift */,
+				DD5DD1B92BC830C600C40EEF /* ColorButtons1.swift */,
+				DD5DD1BA2BC830C600C40EEF /* ColorButtons2.swift */,
 				DD5DD1892BC8307E00C40EEF /* TabletComputingTestsApp.swift */,
-				DD5DD18B2BC8307E00C40EEF /* ContentView.swift */,
 				DD5DD18D2BC8308000C40EEF /* Assets.xcassets */,
 				DD5DD18F2BC8308000C40EEF /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5DD18C2BC8307E00C40EEF /* ContentView.swift in Sources */,
 				DD5DD18A2BC8307E00C40EEF /* TabletComputingTestsApp.swift in Sources */,
+				DD5DD1BC2BC830C600C40EEF /* BasicCounter.swift in Sources */,
+				DD5DD1BE2BC830C600C40EEF /* ColorButtons2.swift in Sources */,
+				DD5DD1BD2BC830C600C40EEF /* ColorButtons1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
