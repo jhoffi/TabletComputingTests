@@ -11,7 +11,8 @@ struct ColorButtons2: View {
     @State private var clickCount = 0
     
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
+            SubView(clickCount: $clickCount)
             Button(action: { clickCount += 1 }) {
                 ZStack {
                     Circle()
@@ -36,6 +37,17 @@ struct ColorButtons2: View {
                     Text(String(clickCount))
                 }
             }
+        }
+    }
+}
+
+struct SubView: View {
+    @Binding var clickCount: Int
+    
+    var body: some View {
+        VStack {
+            Text("Click Count:")
+            Text(String(clickCount))
         }
     }
 }

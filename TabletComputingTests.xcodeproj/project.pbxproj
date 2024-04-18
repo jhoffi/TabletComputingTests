@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD19E6722BCFCF420069E38A /* Addierer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19E6712BCFCF420069E38A /* Addierer.swift */; };
 		DD5DD18A2BC8307E00C40EEF /* TabletComputingTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DD1892BC8307E00C40EEF /* TabletComputingTestsApp.swift */; };
 		DD5DD18E2BC8308000C40EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5DD18D2BC8308000C40EEF /* Assets.xcassets */; };
 		DD5DD1912BC8308000C40EEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5DD1902BC8308000C40EEF /* Preview Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD19E6712BCFCF420069E38A /* Addierer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addierer.swift; sourceTree = "<group>"; };
 		DD5DD1862BC8307E00C40EEF /* TabletComputingTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletComputingTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5DD1892BC8307E00C40EEF /* TabletComputingTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletComputingTestsApp.swift; sourceTree = "<group>"; };
 		DD5DD18D2BC8308000C40EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		DD5DD1882BC8307E00C40EEF /* TabletComputingTests */ = {
 			isa = PBXGroup;
 			children = (
+				DD19E6712BCFCF420069E38A /* Addierer.swift */,
 				DD5DD1BB2BC830C600C40EEF /* BasicCounter.swift */,
 				DD5DD1B92BC830C600C40EEF /* ColorButtons1.swift */,
 				DD5DD1BA2BC830C600C40EEF /* ColorButtons2.swift */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD5DD18A2BC8307E00C40EEF /* TabletComputingTestsApp.swift in Sources */,
+				DD19E6722BCFCF420069E38A /* Addierer.swift in Sources */,
 				DD5DD1BC2BC830C600C40EEF /* BasicCounter.swift in Sources */,
 				DD5DD1BE2BC830C600C40EEF /* ColorButtons2.swift in Sources */,
 				DD5DD1BD2BC830C600C40EEF /* ColorButtons1.swift in Sources */,

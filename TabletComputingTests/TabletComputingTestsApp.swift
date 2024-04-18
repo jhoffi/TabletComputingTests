@@ -11,7 +11,7 @@ import SwiftUI
 struct TabletComputingTestsApp: App {
     var body: some Scene {
         WindowGroup {
-            ColorButtons2()
+            Addierer()
         }
     }
 }
